@@ -3,14 +3,15 @@ import datetime
 import time
 import threading
 import random
-import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+# import telegram
+# from telegram import Update
+# from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-#print ("hello25")
 
 
 
 bot = telebot.TeleBot("6852693433:AAE8BdxZCNfoe5PApiiTAyTr44Z7jaz02Ms")
+
 
 @bot.message_handler(commands=['start'])
 def start_message(message):

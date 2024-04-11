@@ -10,7 +10,7 @@ SCREEN_HEIGHT = 600
 GRID_SIZE = 20
 SNAKE_COLOR = (0, 255, 0)
 FOOD_COLOR = (255, 0, 0)
-BACKGROUND_COLOR = (0, 0, 0)
+BACKGROUND_COLOR = (0, 120, 180)
 
 # Создание экрана
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
